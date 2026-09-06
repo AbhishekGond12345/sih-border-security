@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './components/layout/MainLayout';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import Screening from './pages/Screening';
 import OcrExtraction from './pages/OcrExtraction';
+import Screening from './pages/Screening';
 import Validation from './pages/Validation';
 import Tampering from './pages/Tampering';
 import FaceVerification from './pages/FaceVerification';
